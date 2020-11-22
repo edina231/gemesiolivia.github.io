@@ -1,0 +1,258 @@
+body {
+	background-color: #E4D5C5;
+	font-size: 100px;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 400;
+}
+
+header{
+	background-color: #9DA19C;
+	border: 3px solid-black;
+	border-radius: 20px ;
+	margin: 0.5rem 0.5rem 2rem 0.5rem;
+	font-size: 2rem;
+}
+
+*, *::before, *::after{
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+img{
+	max-width: 100%;
+	border: 2px solid-black;
+	border-radius: 10px;
+}
+
+a{
+	font-size: 20px;
+	text-decoration: none;
+	color: #000000;
+}
+
+.profil{
+	border-radius: 30px;
+	max-height: 30rem;
+}
+
+.menusor{
+	display: flex;
+	flex-wrap: wrap;
+	font-weight: 600;
+}
+
+.menuelem{
+	font-size: 1em;
+	display: inline-block;
+	border-radius: 10px;
+	background-color: #58DB49;
+	border: 2px solid black;
+	padding: 20px;
+	margin: 30px;
+	transition: 1s;
+	flex-grow: 1;
+	justify-content: space-around;
+	min-width: max-content;
+	flex-wrap: wrap;
+	text-align: center;
+}
+
+.menuelem:hover{
+	cursor: pointer;
+	background-color: #1C8410;
+}
+
+main{
+	text-align: center;
+}
+
+.idezet{
+	display: block;
+	padding: 2rem;
+	font-style: oblique;
+	font-size: 5rem;
+}
+
+.bemkepek{
+	width: 10em;
+	float: left;
+	margin: 10px;
+	border-radius: 0px;
+}
+
+.bemkepekjobbra{
+	float: left;
+	width: 10em;
+	border-radius: 0px;
+	margin: 10px;
+}
+
+.linkek{
+	font-size: 30px ;
+	color: solid solid-black;
+}
+
+details{
+	font-size: 3rem;
+	background-color: #FAE281;
+	padding: 5rem 2rem 5rem 4rem;
+	margin: 1rem;
+	-webkit-box-shadow:-14px 0px 12px 0px rgba(41, 50, 50, 0.7);
+	-moz-box-shadow: -14px 0px 12px 0px rgba(41, 50, 50, 0.7);
+	box-shadow: -14px 0px 12px 0px rgba(41, 50, 50, 0.7);
+}
+
+details.lenyilo{
+	border: 2px solid-black ;
+	margin: 10px;
+}
+
+summary{
+	cursor: pointer;
+}
+
+.leiras{
+	font-style: oblique;
+	font-size: 25px;
+}
+
+.profkepek{
+	width: 8rem;
+	height: 8rem;
+	border-radius: 4rem;
+}
+
+.lenyilo{
+	font-style: oblique;
+	font-size: 20px ;
+	text-align: left;
+}
+
+.bem{
+	font-size: 30px;
+	text-align: left;
+	margin: 25px;
+}
+
+.grid{
+	text-align: center;
+	display: grid;
+	grid-template-columns: repeat(auto-fit, 30rem);
+}
+
+.referencia{
+	text-align: center;
+	font-size: 2rem;
+	display: block;
+	background-color: #6C3E09;
+	-webkit-box-shadow: -1px 0px 30px 0px rgba(73, 255, 55, 1);
+	-moz-box-shadow:    -1px 0px 30px 0px rgba(73, 255, 55, 1);
+	box-shadow:         -1px 0px 30px 0px rgba(73, 255, 55, 1);
+	text-align: center;
+	margin: 10px;
+	padding: 10px;
+	border-radius: 5px;
+}
+
+.refkepek{
+	border-radius: 5px;
+	margin-top: 10px;
+	max-height: 25rem;
+}
+
+.nevek{
+	color: #87F527;
+	font-style: oblique;
+	font-weight: 200;
+}
+
+.refszoveg{
+	color: #FFFFFF;
+	font-weight: 20;
+	font-style: italic;
+	font-size: 1.5rem;
+	padding-top: 1rem;
+}
+
+.kapcskepek{
+	height: 4rem;
+	width: 4rem;
+	border-radius: 0.5rem;
+	border: 3px solid black;
+}
+
+.kapcsolatokflex{
+	display:flex;
+	font-size:1rem;
+	color: white;
+	background-color: solid-black;
+	padding-top: 1rem;
+}
+
+.kapcs1{
+	text-align: center;
+	font-size: 1.5rem;
+	color: white;
+	flex-grow: 1;
+	background-color: #000000;
+	padding-top: 1rem;
+}
+
+.kapcs{
+	text-align: center;
+	font-size: 1rem;
+	display: block;
+	background-color: #000000;
+	flex-grow: 1;
+	color: white;
+	padding: 2rem;
+}
+
+.linkkapcs{
+	font-size: 1rem;
+	color: white;
+}
+
+.linkek{
+	font-style: italic;
+	font-size: 25px;
+	text-align: left;
+	margin: 2rem 2rem 5rem 2rem;
+}
+
+.tervek{
+	width: 60%;
+	height: 70rem;
+}
+
+.tervcim{
+	font-size: 5rem;
+}
+ 
+.oldalneve{
+	font-size: 2.5rem;
+	padding: 2rem;
+	text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
