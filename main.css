@@ -1,6 +1,6 @@
 body {
 	background-color: #E4D5C5;
-	font-size: 100px;
+	font-size: 16px;
 	font-family: 'Roboto', sans-serif;
 	font-weight: 400;
 }
@@ -10,7 +10,7 @@ header{
 	border: 3px solid-black;
 	border-radius: 20px ;
 	margin: 0.5rem 0.5rem 2rem 0.5rem;
-	font-size: 2rem;
+	font-size: 20px;
 }
 
 *, *::before, *::after{
@@ -43,7 +43,7 @@ a{
 }
 
 .menuelem{
-	font-size: 1em;
+	font-size: 20px;
 	display: inline-block;
 	border-radius: 10px;
 	background-color: #58DB49;
@@ -71,7 +71,7 @@ main{
 	display: block;
 	padding: 2rem;
 	font-style: oblique;
-	font-size: 5rem;
+	font-size: 20px;
 }
 
 .bemkepek{
@@ -94,7 +94,7 @@ main{
 }
 
 details{
-	font-size: 3rem;
+	font-size: 20px;
 	background-color: #FAE281;
 	padding: 5rem 2rem 5rem 4rem;
 	margin: 1rem;
@@ -114,7 +114,7 @@ summary{
 
 .leiras{
 	font-style: oblique;
-	font-size: 25px;
+	font-size: 16px;
 }
 
 .profkepek{
@@ -125,12 +125,12 @@ summary{
 
 .lenyilo{
 	font-style: oblique;
-	font-size: 20px ;
+	font-size: 16px ;
 	text-align: left;
 }
 
 .bem{
-	font-size: 30px;
+	font-size: 16px;
 	text-align: left;
 	margin: 25px;
 }
@@ -162,6 +162,7 @@ summary{
 }
 
 .nevek{
+	font-size: 20px;
 	color: #87F527;
 	font-style: oblique;
 	font-weight: 200;
@@ -171,7 +172,7 @@ summary{
 	color: #FFFFFF;
 	font-weight: 20;
 	font-style: italic;
-	font-size: 1.5rem;
+	font-size: 16px;
 	padding-top: 1rem;
 }
 
@@ -186,14 +187,15 @@ summary{
 	display:flex;
 	font-size:1rem;
 	color: white;
-	background-color: solid-black;
+	background-color: #000000;
 	padding-top: 1rem;
-	flex-wrap: flex;
+	flex-wrap: wrap;
+	flex-grow: 1;
 }
 
 .kapcs1{
 	text-align: center;
-	font-size: 1.5rem;
+	font-size: 20px;
 	color: white;
 	flex-grow: 1;
 	background-color: #000000;
@@ -201,24 +203,25 @@ summary{
 }
 
 .kapcs{
+	justify-content: space-around;
 	text-align: center;
-	font-size: 1rem;
-	display: block;
+	font-size: 16px;
+	display: inline-block;
+	flex-wrap: wrap;
 	background-color: #000000;
-	flex-grow: 1;
 	color: white;
 	padding: 2rem;
-	flex-wrap: wrap;
+	flex-grow: 1;
 }
 
 .linkkapcs{
-	font-size: 1rem;
+	font-size: 20px;
 	color: white;
 }
 
 .linkek{
 	font-style: italic;
-	font-size: 25px;
+	font-size: 16px;
 	text-align: left;
 	margin: 2rem 2rem 5rem 2rem;
 }
@@ -229,14 +232,15 @@ summary{
 }
 
 .tervcim{
-	font-size: 5rem;
+	font-size: 20px;
 }
  
 .oldalneve{
-	font-size: 2.5rem;
+	font-size: 20px;
 	padding: 2rem;
 	text-align: center;
 }
+
 
 
 
