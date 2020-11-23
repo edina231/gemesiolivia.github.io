@@ -188,6 +188,7 @@ summary{
 	color: white;
 	background-color: solid-black;
 	padding-top: 1rem;
+	flex-wrap: flex;
 }
 
 .kapcs1{
@@ -207,6 +208,7 @@ summary{
 	flex-grow: 1;
 	color: white;
 	padding: 2rem;
+	flex-wrap: wrap;
 }
 
 .linkkapcs{
