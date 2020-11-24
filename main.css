@@ -10,7 +10,7 @@ header{
 	border: 3px solid-black;
 	border-radius: 20px ;
 	margin: 0.5rem 0.5rem 2rem 0.5rem;
-	font-size: 20px;
+	font-size: 32px;
 }
 
 *, *::before, *::after{
@@ -43,7 +43,7 @@ a{
 }
 
 .menuelem{
-	font-size: 20px;
+	font-size: 32px;
 	display: inline-block;
 	border-radius: 10px;
 	background-color: #58DB49;
@@ -71,7 +71,7 @@ main{
 	display: block;
 	padding: 2rem;
 	font-style: oblique;
-	font-size: 20px;
+	font-size: 32px;
 }
 
 .bemkepek{
@@ -89,12 +89,12 @@ main{
 }
 
 .linkek{
-	font-size: 30px ;
+	font-size: 20px ;
 	color: solid solid-black;
 }
 
 details{
-	font-size: 20px;
+	font-size: 32px;
 	background-color: #FAE281;
 	padding: 5rem 2rem 5rem 4rem;
 	margin: 1rem;
@@ -144,7 +144,6 @@ summary{
 
 .referencia{
 	text-align: center;
-	font-size: 2rem;
 	display: block;
 	background-color: #6C3E09;
 	-webkit-box-shadow: -1px 0px 30px 0px rgba(73, 255, 55, 1);
@@ -163,7 +162,7 @@ summary{
 }
 
 .nevek{
-	font-size: 20px;
+	font-size: 32px;
 	color: #87F527;
 	font-style: oblique;
 	font-weight: 200;
@@ -186,7 +185,7 @@ summary{
 
 .kapcsolatokflex{
 	display:flex;
-	font-size:1rem;
+	font-size:32px;
 	color: white;
 	background-color: #000000;
 	padding-top: 1rem;
@@ -196,7 +195,7 @@ summary{
 
 .kapcs1{
 	text-align: center;
-	font-size: 20px;
+	font-size: 32px;
 	color: white;
 	flex-grow: 1;
 	background-color: #000000;
@@ -206,7 +205,6 @@ summary{
 .kapcs{
 	justify-content: space-around;
 	text-align: center;
-	font-size: 16px;
 	display: inline-block;
 	flex-wrap: wrap;
 	background-color: #000000;
@@ -216,7 +214,7 @@ summary{
 }
 
 .linkkapcs{
-	font-size: 20px;
+	font-size: 32px;
 	color: white;
 }
 
@@ -233,11 +231,11 @@ summary{
 }
 
 .tervcim{
-	font-size: 20px;
+	font-size: 32px;
 }
  
 .oldalneve{
-	font-size: 20px;
+	font-size: 32px;
 	padding: 2rem;
 	text-align: center;
 }
